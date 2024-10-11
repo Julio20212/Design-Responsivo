@@ -1,0 +1,30 @@
+@media(max-width:600px) {
+    body {
+        background-color: green;
+    }
+}
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 12px;
+    }
+    section img {
+        width: 100%;
+    }
+}
+ 
+@media (min-width: 601px) and (max-width: 900px) {
+    section img {
+        width:50%;
+    }
+    body {
+        background-color: rgb(36, 7, 153);
+    }
+}
+@media (min-width: 601px) {
+    section img {
+        width:50%;
+    }
+    body {
+        background-color: rgb(62, 112, 147);
+    }
+}
